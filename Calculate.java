@@ -11,12 +11,19 @@ import java.util.Scanner;
  *2. INITIALIZE int count, int n0-4, int i,double sum
  *3. PROMPT user to input 5 numbers
  *4. Create a new scanner, to scan for user input.
- *5. Create LOOP to scan the numbers and READ into variables n0 - n4.
- *6. Create LOOP to DISPLAY the same numbers.
- *7. Create LOOP to READ the value of the variables and READ into a new variable: sum
- *8. DISPLAY the sum
- *9. CALCULATE and DISPLAY the average of the numbers: sum / 5
- *10.END
+ *5. WHILE count<5
+ *6. 	READ next int from keyboard into num[count]
+ *7.	INCREMENT count
+ *8. WHILE i<5
+ *9. 	PRINT num[i]
+ *10.	INCREMENT i
+ *11.SET count=0
+ *12.WHILE count<5
+ *13.	ADD num[count] to sum
+ *14.	INCREMENT count
+ *15. DISPLAY the sum
+ *16. CALCULATE and DISPLAY the average of the numbers: sum / 5
+ *17.END
  */
 
 public class Calculate {
